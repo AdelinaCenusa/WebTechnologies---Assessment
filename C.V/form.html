@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 <br><br><br> 
+<body>
 <script>
 function validateForm() {
-  var x = document.forms["myForm"]["fname"].value;
+  var x = document.form["first_name"]["surname"]["email"]["message"].value;
   if (x == "") {
     alert("Please fill in this field.");
     return false;
@@ -13,7 +14,7 @@ function validateForm() {
 }
 </script>
 </head>
-<body>
+
 			<form>
 
 				<label>First Name</label><input type="text" name="first_name" value="" required><br><br>
